@@ -1,0 +1,140 @@
+Crear una Pagina de Cursos Usando React tanto Frontend como Backend
+
+-va tener un dashboard Administrador
+-Se Va poder Agregar Eliminar y Editar Cursos
+-En el Dasboard Administrador Los Cursos van a Tener todo lo normal que debe tener un curso al hora de agregarlo
+-Nombre del Curso 
+-Descripcion del Curso
+-Imagen del Curso 
+-Docente del Curso
+-Material descargarbe(Pdf,Word,Powepoint,etc)
+-Evaluaciones y cuestionarios: Para medir el progreso de los estudiantes.
+Dashboard Administrador para Plataforma de Cursos
+Características del Dashboard Administrador:
+Acceso de Administrador:
+
+Inicio de sesión seguro con roles y permisos.
+
+Gestión de Cursos:
+
+Agregar Curso:
+
+Formulario para agregar nuevo curso.
+
+Campos: Nombre del Curso, Descripción, Imagen, Docente, Material descargable (PDF, Word, PowerPoint), Videos, Evaluaciones y Cuestionarios.
+
+Editar Curso:
+
+Lista de cursos existentes con opción para editar.
+
+Modificación de todos los campos anteriores.
+
+Eliminar Curso:
+
+Opción para eliminar curso de la lista.
+
+Gestión de Usuarios:
+
+Visualización de todos los usuarios registrados.
+
+Roles y permisos: asignar y modificar roles (estudiante, administrador).
+
+Información de perfil: detalles de los usuarios, progreso en cursos, resultados de evaluaciones.
+
+Monitoreo de Evaluaciones:
+
+Acceso a resultados y estadísticas de evaluaciones.
+
+Herramientas para analizar el progreso de los estudiantes.
+
+Funcionalidad para crear y modificar evaluaciones y cuestionarios.
+
+Contenido Multimedia:
+
+Gestión de Videos:
+
+Subida de videos de contenido de curso.
+
+Organización y categorización de videos.
+
+Eliminación de videos obsoletos o incorrectos.
+
+Subida y eliminación de otros archivos multimedia (documentos).
+
+Notificaciones:
+
+Sistema de notificaciones para actualizaciones y anuncios importantes.
+
+Envío de mensajes a estudiantes sobre cambios en cursos o nuevas evaluaciones.
+
+Interfaz del Usuario:
+Panel de Control:
+
+Resumen general de todas las actividades.
+
+Gráficos y estadísticas para visualización rápida del progreso de la plataforma.
+
+Lista de Cursos:
+
+Tabla de cursos con opciones para agregar, editar y eliminar.
+
+Búsqueda y filtrado de cursos por categorías, nivel de dificultad, etc.
+
+Formulario de Curso:
+
+Formulario detallado para agregar o editar cursos con todos los campos necesarios.
+
+Subida de imágenes y archivos desde el propio formulario.
+
+Subida de Videos: Botón para añadir videos desde la computadora o enlace de video.
+
+Seguridad y Buenas Prácticas:
+Validación de Datos:
+
+Validación de todos los datos de entrada en frontend y backend.
+
+Autenticación JWT:
+
+Uso de JSON Web Tokens para manejo seguro de sesiones.
+
+Manejo de Errores:
+
+Sistema de gestión de errores para proporcionar retroalimentación útil a los usuarios
+
+.
+Formulario para Añadir Curso
+Nombre del Curso
+
+Campo de texto para introducir el nombre.
+
+Descripción del Curso
+
+Área de texto para detallar la descripción del curso.
+
+Imagen del Curso
+
+Opción para subir una imagen representativa del curso.
+
+Docente del Curso
+
+Campo de texto para el nombre del docente.
+
+Información adicional sobre el docente (opcional).
+
+Material Descargable
+
+Opción para subir archivos en formato PDF, Word, PowerPoint, etc.
+
+Videos del Curso
+
+Opción para subir videos desde el ordenador.
+
+Campo para añadir enlaces a videos en línea (YouTube, Vimeo, etc.).
+
+Evaluaciones y Cuestionarios
+
+Herramientas para crear y configurar evaluaciones.
+
+Preguntas de opción múltiple, verdadero/falso, respuestas cortas, etc.
+
+Opción para subir evaluaciones desde un archivo (opcional).
